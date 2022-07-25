@@ -1,0 +1,69 @@
+{
+	"id": "a9f47910c8fa7d1648b1667b44e8d7ba",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.17",
+	"solcLongVersion": "0.5.17+commit.d19bba13",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"struct.sol": {
+				"content": "// SPDX-License-Identifier: "
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"formattedMessage": "struct.sol:1:29: Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"\n// SPDX-License-Identifier: \n                            ^\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.5.17;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 28,
+					"file": "struct.sol",
+					"start": 28
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"struct.sol": {
+				"ast": {
+					"absolutePath": "struct.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "28:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

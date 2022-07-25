@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollnum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "section",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mappingprac.sol": "Mapping_example"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mappingprac.sol": {
+			"keccak256": "0xfa67ae9efb3ebbcbb507c457b2a635a53410713644e2df6cf84408e359536ea6",
+			"license": "MIT-3.0",
+			"urls": [
+				"bzz-raw://7d0daf8dc0a4c23b52533f567778a54da0c2ae315fa4e13fccd9797e4476f2f1",
+				"dweb:/ipfs/QmcBaJxsLhe2BfbuZFYhgvM1vom5cHQ2Dj6QHj4HLUyfd3"
+			]
+		}
+	},
+	"version": 1
+}

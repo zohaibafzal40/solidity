@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomeWork",
+				"outputs": [
+					{
+						"internalType": "enum special.Gender",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "special"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0x84dc698eedc8afc45108d03c2849384acc32b1739b88d7f326a057cd354b924f",
+			"license": "MIT-3.0",
+			"urls": [
+				"bzz-raw://e7028cdd32856112f64fbd775c7f800d81e9820bb789650d2b2500e01a1d0735",
+				"dweb:/ipfs/QmRBNMqX6BQcVdwUUv2tb6LgSThuMvDv9CkZbnAor13U6m"
+			]
+		}
+	},
+	"version": 1
+}

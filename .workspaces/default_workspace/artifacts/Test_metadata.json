@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "return_example",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enumbig.sol": "Test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enumbig.sol": {
+			"keccak256": "0xfcd67ec83f6b5cea682492ecdc328af7569afe28ddc0b843eeb978aac86d2671",
+			"urls": [
+				"bzz-raw://6951e3b4b155115532e92c23204fc41f8f06ac26c86db092773c5f730f7ad88a",
+				"dweb:/ipfs/QmaCmaohABqM7TcLYgEsbFuyLmc1P8RcZRFY6xKTgS1woM"
+			]
+		}
+	},
+	"version": 1
+}

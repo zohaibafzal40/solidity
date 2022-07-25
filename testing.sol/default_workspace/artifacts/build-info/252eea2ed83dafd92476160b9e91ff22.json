@@ -1,0 +1,374 @@
+{
+	"id": "252eea2ed83dafd92476160b9e91ff22",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"enumbig.sol": {
+				"content": "// SPDX-License-Identifier: MIT-3.0\r\n\r\npragma solidity >= 0.5.0 < 0.9.0;\r\n\r\ncontract extraenum{\r\n    enum status {pending,shippped,Accepted,Rejected,Canc}\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"enumbig.sol": {
+				"extraenum": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"enumbig.sol\":76:157  contract extraenum{\r... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"enumbig.sol\":76:157  contract extraenum{\r... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220b3067356f0d17d17c8ec08c2d05495dc94f0cf517decafffd0ad97ce7a522e8e64736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b3067356f0d17d17c8ec08c2d05495dc94f0cf517decafffd0ad97ce7a522e8e64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB3 MOD PUSH20 0x56F0D17D17C8EC08C2D05495DC94F0CF517DECAF SELFDESTRUCT 0xD0 0xAD SWAP8 0xCE PUSH27 0x522E8E64736F6C6343000807003300000000000000000000000000 ",
+							"sourceMap": "76:81:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea2646970667358221220b3067356f0d17d17c8ec08c2d05495dc94f0cf517decafffd0ad97ce7a522e8e64736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xB3 MOD PUSH20 0x56F0D17D17C8EC08C2D05495DC94F0CF517DECAF SELFDESTRUCT 0xD0 0xAD SWAP8 0xCE PUSH27 0x522E8E64736F6C6343000807003300000000000000000000000000 ",
+							"sourceMap": "76:81:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 76,
+									"end": 157,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220b3067356f0d17d17c8ec08c2d05495dc94f0cf517decafffd0ad97ce7a522e8e64736f6c63430008070033",
+									".code": [
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 76,
+											"end": 157,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"enumbig.sol\":\"extraenum\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"enumbig.sol\":{\"keccak256\":\"0x963feff7cbe85b283be78f3631d27582fbd49edd28a05827d7fe7b5ddee7de69\",\"license\":\"MIT-3.0\",\"urls\":[\"bzz-raw://5b1415f41fc81995bd2bfb2ce926fd82eff6447c2a46550fefd303761d2ebf2a\",\"dweb:/ipfs/QmcUZWXrTDY76jUcU3Bj5FpqZFQWEFVPrbeQaRPjzXPK7D\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"enumbig.sol": {
+				"ast": {
+					"absolutePath": "enumbig.sol",
+					"exportedSymbols": {
+						"extraenum": [
+							8
+						]
+					},
+					"id": 9,
+					"license": "MIT-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "39:33:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 8,
+							"linearizedBaseContracts": [
+								8
+							],
+							"name": "extraenum",
+							"nameLocation": "85:9:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"canonicalName": "extraenum.status",
+									"id": 7,
+									"members": [
+										{
+											"id": 2,
+											"name": "pending",
+											"nameLocation": "114:7:0",
+											"nodeType": "EnumValue",
+											"src": "114:7:0"
+										},
+										{
+											"id": 3,
+											"name": "shippped",
+											"nameLocation": "122:8:0",
+											"nodeType": "EnumValue",
+											"src": "122:8:0"
+										},
+										{
+											"id": 4,
+											"name": "Accepted",
+											"nameLocation": "131:8:0",
+											"nodeType": "EnumValue",
+											"src": "131:8:0"
+										},
+										{
+											"id": 5,
+											"name": "Rejected",
+											"nameLocation": "140:8:0",
+											"nodeType": "EnumValue",
+											"src": "140:8:0"
+										},
+										{
+											"id": 6,
+											"name": "Canc",
+											"nameLocation": "149:4:0",
+											"nodeType": "EnumValue",
+											"src": "149:4:0"
+										}
+									],
+									"name": "status",
+									"nameLocation": "106:6:0",
+									"nodeType": "EnumDefinition",
+									"src": "101:53:0"
+								}
+							],
+							"scope": 9,
+							"src": "76:81:0",
+							"usedErrors": []
+						}
+					],
+					"src": "39:118:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
